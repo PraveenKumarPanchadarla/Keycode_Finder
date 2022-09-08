@@ -9,7 +9,6 @@ function clicks(event){
     const keypressed=event.keyCode || event.which;
     output.innerHTML=keypressed;
     hii.textContent=event.key;
-    console.log(keypressed);
 }
 
 copy.addEventListener("click",copied);
